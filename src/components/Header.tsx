@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <header className="bg-[url(/header.jpg)] bg-cover bg-center">
-      <div className="mx-5 py-12 flex flex-col justify-between min-h-[660px]">
+      <div className="container mx-auto py-12 flex flex-col justify-between min-h-[660px]">
         <div className="grid grid-cols-2 gap-y-12">
           <h1 className="text-3xl text-white text-center col-span-2 md:col-span-1 md:text-4xl lg:text-5xl">
             Arquitectura {""}
@@ -17,12 +17,12 @@ export default function Header() {
               </svg>
               01-800-0000-000
             </a>
-            <div className="flex flex-col gap-4 md:flex-col md:gap-9 lg:flex-row lg:gap-2 lg:justify-between">
-              <a href="#" className="text-white text-center text-xl md:text-2xl">Inicio</a>
-              <a href="#" className="text-white text-center text-xl md:text-2xl">Nosotros</a>
-              <a href="#" className="text-white text-center text-xl md:text-2xl">Modelos</a>
-              <a href="#" className="text-white text-center text-xl md:text-2xl">Galería</a>
-              <a href="#" className="text-white text-center text-xl md:text-2xl">Contacto</a>
+            <div className="flex flex-col gap-2 md:flex-col md:gap-7 lg:flex-row lg:gap-0 lg:justify-between">
+              <a href="#" className="p-1 text-white text-center text-xl hover:text-black hover:bg-white/30 md:text-2xl">Inicio</a>
+              <a href="#" className="p-1 text-white text-center text-xl hover:text-black hover:bg-white/30 md:text-2xl">Nosotros</a>
+              <a href="#" className="p-1 text-white text-center text-xl hover:text-black hover:bg-white/30 md:text-2xl">Modelos</a>
+              <a href="#" className="p-1 text-white text-center text-xl hover:text-black hover:bg-white/30 md:text-2xl">Galería</a>
+              <a href="#" className="p-1 text-white text-center text-xl hover:text-black hover:bg-white/30 md:text-2xl">Contacto</a>
             </div>
           </div>
         </div>
