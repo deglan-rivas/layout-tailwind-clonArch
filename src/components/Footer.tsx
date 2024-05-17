@@ -18,13 +18,13 @@ export default function Footer() {
                 </svg>
                 01-800-0000-000
               </a>
-              <div className="flex flex-col gap-2 md:flex-col md:gap-7 lg:flex-row lg:gap-0 lg:justify-between">
+              <nav className="flex flex-col gap-2 md:flex-col md:gap-7 lg:flex-row lg:gap-0 lg:justify-between">
                 <a href="#" className="p-1 text-white text-center text-xl hover:text-black hover:bg-white/30 md:text-2xl">Inicio</a>
                 <a href="#" className="p-1 text-white text-center text-xl hover:text-black hover:bg-white/30 md:text-2xl">Nosotros</a>
                 <a href="#" className="p-1 text-white text-center text-xl hover:text-black hover:bg-white/30 md:text-2xl">Modelos</a>
                 <a href="#" className="p-1 text-white text-center text-xl hover:text-black hover:bg-white/30 md:text-2xl">Galería</a>
                 <a href="#" className="p-1 text-white text-center text-xl hover:text-black hover:bg-white/30 md:text-2xl">Contacto</a>
-              </div>
+              </nav>
             </div>
           </div>
         </div>
