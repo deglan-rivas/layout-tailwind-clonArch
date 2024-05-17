@@ -1,6 +1,6 @@
 export default function Models() {
   return (
-    <section className="bg-white py-12 w-full max-w-6xl mx-auto">
+    <section className="bg-white pt-12 w-full max-w-6xl mx-auto">
       <h2 className="text-6xl font-bold px-5 mb-12">
         Conoce nuestros 3 modelos
       </h2>
